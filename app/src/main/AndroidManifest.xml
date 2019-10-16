@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.utsavcontectbook">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Seva64"></activity>
+        <activity android:name=".Seva63" />
+        <activity android:name=".Seva62" />
+        <activity android:name=".Seva61" />
+        <activity android:name=".Seva60" />
+        <activity android:name=".Seva59" />
+        <activity android:name=".Seva58" />
+        <activity android:name=".Seva57" />
+        <activity android:name=".Seva56" />
+        <activity android:name=".Seva55" />
+        <activity android:name=".Seva54" />
+        <activity android:name=".Seva53" />
+        <activity android:name=".Seva52" />
+        <activity android:name=".Seva51" />
+        <activity android:name=".Seva50" />
+        <activity android:name=".Seva49" />
+        <activity android:name=".Seva48" />
+        <activity android:name=".Seva47" />
+        <activity android:name=".Seva46" />
+        <activity android:name=".Seva45" />
+        <activity android:name=".Seva44" />
+        <activity android:name=".Seva43" />
+        <activity android:name=".Seva42" />
+        <activity android:name=".Seva41" />
+        <activity android:name=".Seva40" />
+        <activity android:name=".Seva39" />
+        <activity android:name=".Seva38" />
+        <activity android:name=".Seva37" />
+        <activity android:name=".Seva36" />
+        <activity android:name=".Seva35" />
+        <activity android:name=".Seva34" />
+        <activity android:name=".Seva33" />
+        <activity android:name=".Seva32" />
+        <activity android:name=".Seva31" />
+        <activity android:name=".Seva30" />
+        <activity android:name=".Seva29" />
+        <activity android:name=".Seva28" />
+        <activity android:name=".Seva27" />
+        <activity android:name=".Seva26" />
+        <activity android:name=".Seva25" />
+        <activity android:name=".Seva24" />
+        <activity android:name=".Seva23" />
+        <activity android:name=".Seva22" />
+        <activity android:name=".Seva21" />
+        <activity android:name=".Seva20" />
+        <activity android:name=".Seva19" />
+        <activity android:name=".Seva18" />
+        <activity android:name=".Seva17" />
+        <activity android:name=".Seva16" />
+        <activity android:name=".Seva15" />
+        <activity android:name=".Seva14" />
+        <activity android:name=".Seva13" />
+        <activity android:name=".Seva12" />
+        <activity android:name=".Seva11" />
+        <activity android:name=".Seva10" />
+        <activity android:name=".Seva9" />
+        <activity android:name=".Seva8" />
+        <activity android:name=".Seva7" />
+        <activity android:name=".Seva6" />
+        <activity android:name=".Seva5" />
+        <activity android:name=".Seva4" />
+        <activity android:name=".Seva3" />
+        <activity android:name=".Vayvasthapan" />
+        <activity android:name=".JaminSampadan" />
+        <activity android:name=".HomeActivity" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
