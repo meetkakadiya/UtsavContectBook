@@ -9,6 +9,7 @@ import android.support.annotation.NonNull;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Toast;
 
 public class SplashScreen extends AppCompatActivity {
@@ -25,6 +26,8 @@ public class SplashScreen extends AppCompatActivity {
             public void run() {
                 if (ContextCompat.checkSelfPermission(SplashScreen.this, Manifest.permission.CALL_PHONE) != PackageManager.PERMISSION_GRANTED) {
                     ActivityCompat.requestPermissions(SplashScreen.this, new String[]{Manifest.permission.CALL_PHONE}, 100);
+                } else {
+                    openHome();
                 }
             }
         }, SPLASH_DISPLAY_LENGTH);
