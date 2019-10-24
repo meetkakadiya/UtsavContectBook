@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sant Swami"
+                android:text="પૂ.ગોવિંદ સ્વામી - મેતપુરવાળા"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. 99252 07502"
+                android:text="MO:. 9898884558"
                 android:textSize="20dp" />
 
             <Button
@@ -65,14 +65,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="Shyam Swami"
+                android:text="શ્રી બાબુભાઈ અંબાલાલ પટેલ"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:. 99252 05611"
+                android:text="MO:.  "
                 android:textSize="20dp" />
 
             <Button
@@ -95,19 +95,20 @@
                 android:background="#ac662a"/>
 
             <!--  -->
+
             <TextView
                 android:id="@+id/text_3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view2"
-                android:text="Nikitbhai"
+                android:text="	શ્રી મહેન્દ્રભાઈ પટેલ - વડતાલ	"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:. 95589 22124"
+                android:text="MO:. 9825083544"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_3"
@@ -127,6 +128,79 @@
                 android:layout_height="2dp"
                 android:layout_margin="5dp"
                 android:background="#ac662a"/>
+
+
+            <!--  -->
+
+            <TextView
+                android:id="@+id/text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view3"
+                android:text="શ્રી સતિષભાઈ-વડતાલ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_4"
+                android:text="MO:. 9687893339"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_4"
+                android:layout_marginTop="4dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_below="@id/view3"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon"
+                />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_below="@+id/text_4_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--  -->
+
+            <TextView
+                android:id="@+id/text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view4"
+                android:text="શ્રી રાકેશભાઈ-વડતાલ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_5"
+                android:text="MO:. 9825355449"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_5"
+                android:layout_marginTop="4dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_below="@id/view4"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon"
+                />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_below="@+id/text_5_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
 
         </RelativeLayout>
 

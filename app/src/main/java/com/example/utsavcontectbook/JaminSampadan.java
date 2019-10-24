@@ -12,7 +12,7 @@ import android.widget.Button;
 
 public class JaminSampadan extends AppCompatActivity {
 
-    Button btn,btn1,btn2;
+    Button btn,btn1,btn2,btn3,btn4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,7 +25,7 @@ public class JaminSampadan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel: 9898884558"));
                 startActivity(intent);
             }
         });
@@ -36,7 +36,7 @@ public class JaminSampadan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 8511047494"));
+                intent.setData(Uri.parse("tel: "));
                 startActivity(intent);
             }
         });
@@ -47,7 +47,27 @@ public class JaminSampadan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
+                intent.setData(Uri.parse("tel: 9825083544"));
+                startActivity(intent);
+            }
+        });
+        btn3 = (Button) findViewById(R.id.bt_4);
+
+        btn3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9687893339"));
+                startActivity(intent);
+            }
+        });
+        btn4 = (Button) findViewById(R.id.bt_5);
+
+        btn4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9825355449"));
                 startActivity(intent);
             }
         });

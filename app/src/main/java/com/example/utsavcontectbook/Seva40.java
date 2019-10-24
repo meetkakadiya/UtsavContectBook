@@ -22,32 +22,11 @@ public class Seva40 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel: "));
                 startActivity(intent);
             }
         });
 
-        s40_2 = findViewById(R.id.bt_s40_2);
 
-        s40_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925205611"));
-                startActivity(intent);
-            }
-        });
-
-        s40_3 =
-                findViewById(R.id.bt_s40_3);
-
-        s40_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
-                startActivity(intent);
-            }
-        });
     }
 }

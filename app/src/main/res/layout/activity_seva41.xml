@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFDEF"
-    tools:context=".Seva4">
+    tools:context=".Seva41">
 
     <TextView
         android:id="@+id/main_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="અખંડઘૂન"
+        android:text="લાઈટ તથા ઈલેક્ટ્રક વિભાગ"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sant Swami"
+                android:text="પૂ.શુકદેવ સ્વામી - નાર"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. 99252 07502"
+                android:text="MO:. 9825583765"
                 android:textSize="20dp" />
 
             <Button
@@ -64,14 +64,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="Shyam Swami"
+                android:text="પા.નિલકંઠભગત - કુબેરનગર"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:. 99252 05611"
+                android:text="MO:. 8630520428"
                 android:textSize="20dp" />
 
             <Button
@@ -98,14 +98,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view2"
-                android:text="Nikitbhai"
+                android:text="શ્રી રાકેશભાઈ - વડતાલ"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:. 95589 22124"
+                android:text="MO:. 9428152308"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s41_3"

@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFDEF"
-    tools:context=".Seva4">
+    tools:context=".Seva48">
 
     <TextView
         android:id="@+id/main_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="અખંડઘૂન"
+        android:text="વિદેશના ભક્તોનો સપર્ક"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 

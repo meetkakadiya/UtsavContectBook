@@ -22,7 +22,7 @@ public class Seva55 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel: 9427242383"));
                 startActivity(intent);
             }
         });
@@ -33,21 +33,11 @@ public class Seva55 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925205611"));
+                intent.setData(Uri.parse("tel: 7990880590"));
                 startActivity(intent);
             }
         });
 
-        s55_3 =
-                findViewById(R.id.bt_s55_3);
 
-        s55_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
-                startActivity(intent);
-            }
-        });
     }
 }

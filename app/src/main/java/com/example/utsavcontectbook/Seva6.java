@@ -22,31 +22,11 @@ public class Seva6 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel:9925224171"));
                 startActivity(intent);
             }
         });
 
-        s6_2 = findViewById(R.id.bt_s6_2);
 
-        s6_2.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925205611"));
-                startActivity(intent);
-            }
-        });
-
-        s6_3 = findViewById(R.id.bt_s6_3);
-
-        s6_3.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
-                startActivity(intent);
-            }
-        });
     }
 }

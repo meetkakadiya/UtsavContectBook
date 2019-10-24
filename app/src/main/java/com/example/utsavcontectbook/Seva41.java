@@ -14,7 +14,7 @@ public class Seva41 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_seva40);
+        setContentView(R.layout.activity_seva41);
 
         s41_1 = findViewById(R.id.bt_s41_1);
 
@@ -22,7 +22,7 @@ public class Seva41 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel: 9825583765"));
                 startActivity(intent);
             }
         });
@@ -33,19 +33,18 @@ public class Seva41 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925205611"));
+                intent.setData(Uri.parse("tel: 8630520428"));
                 startActivity(intent);
             }
         });
 
-        s41_3 =
-                findViewById(R.id.bt_s41_3);
+        s41_3 = findViewById(R.id.bt_s41_3);
 
         s41_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
+                intent.setData(Uri.parse("tel: 9428152308"));
                 startActivity(intent);
             }
         });

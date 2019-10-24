@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Vayvasthapan extends AppCompatActivity {
 
-    Button btn_v1,btn_v2,btn_v3;
+    Button btn_v1,btn_v2,btn_v3,btn_v4,btn_v5,btn_v6,btn_v7;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class Vayvasthapan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel: 9374995000"));
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class Vayvasthapan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925205611"));
+                intent.setData(Uri.parse("tel: 9925207502"));
                 startActivity(intent);
             }
         });
@@ -44,7 +44,51 @@ public class Vayvasthapan extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
+                intent.setData(Uri.parse("tel: 9601290009"));
+                startActivity(intent);
+            }
+        });
+
+        btn_v4 = findViewById(R.id.bt_v_4);
+
+        btn_v4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9925205611"));
+                startActivity(intent);
+            }
+        });
+
+        btn_v5 = findViewById(R.id.bt_v_5);
+
+        btn_v5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9979202434"));
+                startActivity(intent);
+            }
+        });
+
+        btn_v6 = findViewById(R.id.bt_v_6);
+
+        btn_v6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9825583765"));
+                startActivity(intent);
+            }
+        });
+
+        btn_v7 = findViewById(R.id.bt_v_7);
+
+        btn_v7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9427242383"));
                 startActivity(intent);
             }
         });

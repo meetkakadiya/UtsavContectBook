@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sant Swami"
+                android:text="પૂ.શ્રીજી સ્વામી - રાણપુર"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. 99252 07502"
+                android:text="MO:. 9427242383"
                 android:textSize="20dp" />
 
             <Button
@@ -64,14 +64,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="Shyam Swami"
+                android:text="પૂ.નિલકંઠ સ્વામી - પીપલાણા"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:. 99252 05611"
+                android:text="MO:."
                 android:textSize="20dp" />
 
             <Button
@@ -98,14 +98,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view2"
-                android:text="Nikitbhai"
+                android:text="પૂ.શ્રીજી સ્વામી - હરિયાળા"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:. 95589 22124"
+                android:text="MO:. 9227600791"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s13_3"

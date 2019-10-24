@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Seva22 extends AppCompatActivity {
 
-    Button s22_1,s22_2, s22_3;
+    Button s22_1,s22_2, s22_3,s22_4,s22_5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class Seva22 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel: 9825314115"));
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class Seva22 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925205611"));
+                intent.setData(Uri.parse("tel: 9825222217"));
                 startActivity(intent);
             }
         });
@@ -44,7 +44,29 @@ public class Seva22 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
+                intent.setData(Uri.parse("tel: 9825583765"));
+                startActivity(intent);
+            }
+        });
+
+        s22_4 = findViewById(R.id.bt_s22_4);
+
+        s22_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9320017374"));
+                startActivity(intent);
+            }
+        });
+
+        s22_5 = findViewById(R.id.bt_s22_5);
+
+        s22_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9825821501"));
                 startActivity(intent);
             }
         });

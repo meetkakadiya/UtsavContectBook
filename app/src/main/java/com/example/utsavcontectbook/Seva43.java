@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Seva43 extends AppCompatActivity {
 
-    Button s43_1,s43_2,s43_3;
+    Button s43_1,s43_2,s43_3,s43_4,s43_5,s43_6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class Seva43 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel: "));
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class Seva43 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925205611"));
+                intent.setData(Uri.parse("tel:9879612115"));
                 startActivity(intent);
             }
         });
@@ -45,7 +45,43 @@ public class Seva43 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
+                intent.setData(Uri.parse("tel: 9723177518"));
+                startActivity(intent);
+            }
+        });
+
+        s43_4 =
+                findViewById(R.id.bt_s43_4);
+
+        s43_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: "));
+                startActivity(intent);
+            }
+        });
+
+        s43_5 =
+                findViewById(R.id.bt_s43_5);
+
+        s43_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9662311468"));
+                startActivity(intent);
+            }
+        });
+
+        s43_6 =
+                findViewById(R.id.bt_s43_6);
+
+        s43_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9913562020"));
                 startActivity(intent);
             }
         });

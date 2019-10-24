@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFDEF"
-    tools:context=".Seva6">
+    tools:context=".Seva60">
 
     <TextView
         android:id="@+id/main_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="દાન-ભેટ સમીતી"
+        android:text="જનરલ સ્ટોર"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sant Swami"
+                android:text="શ્રી જયેન્દ્રભાઈ - વડતાલ"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. 99252 07502"
+                android:text="MO:. 9427159609"
                 android:textSize="20dp" />
 
             <Button
@@ -64,14 +64,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="Shyam Swami"
+                android:text="શ્રી ચીન્ટુભાઈ - વડતાલ"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:. 99252 05611"
+                android:text="MO:.  "
                 android:textSize="20dp" />
 
             <Button
@@ -92,38 +92,7 @@
                 android:layout_margin="5dp"
                 android:background="#ac662a"/>
 
-            <!--  -->
-            <TextView
-                android:id="@+id/text_3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/view2"
-                android:text="Nikitbhai"
-                android:textSize="25dp" />
-            <TextView
-                android:id="@+id/text_3_1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@+id/text_3"
-                android:text="MO:. 95589 22124"
-                android:textSize="20dp" />
-            <Button
-                android:id="@+id/bt_s60_3"
-                android:layout_alignParentRight="true"
-                android:layout_below="@id/view2"
-                android:layout_marginTop="2dp"
-                android:layout_width="25pt"
-                android:layout_height="25pt"
-                android:layout_marginRight="5dp"
-                android:background="@drawable/icon" />
 
-            <View
-                android:id="@+id/view3"
-                android:layout_below="@+id/text_3_1"
-                android:layout_width="match_parent"
-                android:layout_height="2dp"
-                android:layout_margin="5dp"
-                android:background="#ac662a"/>
 
         </RelativeLayout>
 

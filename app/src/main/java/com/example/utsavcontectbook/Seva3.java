@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Seva3 extends AppCompatActivity {
 
-    Button s3_1,s3_2,s3_3;
+    Button s3_1,s3_2,s3_3,s3_4,s3_5;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +22,7 @@ public class Seva3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel: 9825583765"));
                 startActivity(intent);
             }
         });
@@ -33,7 +33,7 @@ public class Seva3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925205611"));
+                intent.setData(Uri.parse("tel: 9825222217"));
                 startActivity(intent);
             }
         });
@@ -44,7 +44,31 @@ public class Seva3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
+                intent.setData(Uri.parse("tel: 9979202434"));
+                startActivity(intent);
+            }
+        });
+
+
+        s3_4 = findViewById(R.id.bt_s3_4);
+
+        s3_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9427242383"));
+                startActivity(intent);
+            }
+        });
+
+
+        s3_5 = findViewById(R.id.bt_s3_5);
+
+        s3_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel:  "));
                 startActivity(intent);
             }
         });

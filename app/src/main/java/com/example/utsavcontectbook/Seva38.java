@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Seva38 extends AppCompatActivity {
-    Button s38_1,s38_2,s38_3;
+    Button s38_1,s38_2,s38_3,s38_4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,7 +20,7 @@ public class Seva38 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925207502"));
+                intent.setData(Uri.parse("tel:"));
                 startActivity(intent);
             }
         });
@@ -31,7 +31,7 @@ public class Seva38 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9925205611"));
+                intent.setData(Uri.parse("tel: "));
                 startActivity(intent);
             }
         });
@@ -42,7 +42,18 @@ public class Seva38 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9558922124"));
+                intent.setData(Uri.parse("tel: "));
+                startActivity(intent);
+            }
+        });
+
+        s38_4 = findViewById(R.id.bt_s38_4);
+
+        s38_4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9737752355 "));
                 startActivity(intent);
             }
         });

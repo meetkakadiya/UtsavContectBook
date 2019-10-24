@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFDEF"
-    tools:context=".Seva5">
+    tools:context=".Seva59">
 
     <TextView
         android:id="@+id/main_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="વિરાટ વચનામૃત પાઠ"
+        android:text="વર્કશોપ"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 

@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFDEF"
-    tools:context=".Seva6">
+    tools:context=".Seva64">
 
     <TextView
         android:id="@+id/main_4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="દાન-ભેટ સમીતી"
+        android:text="સંત મિશન રસોડુ"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 

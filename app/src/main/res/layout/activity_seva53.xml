@@ -4,13 +4,13 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FFFDEF"
-    tools:context=".Seva5">
+    tools:context=".Seva53">
 
     <TextView
         android:id="@+id/main_5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="વિરાટ વચનામૃત પાઠ"
+        android:text="યજમાન વ્યવસ્થા"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Sant Swami"
+                android:text="પૂ.દેવ સ્વામી - ચેરમેનશ્રી"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. 99252 07502"
+                android:text="MO:. 9374995000"
                 android:textSize="20dp" />
 
             <Button
@@ -64,14 +64,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="Shyam Swami"
+                android:text="પૂ.સંત સ્વામી - આ.કો.શ્રી"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:. 99252 05611"
+                android:text="MO:. 9925207502"
                 android:textSize="20dp" />
 
             <Button
@@ -98,14 +98,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view2"
-                android:text="Nikitbhai"
+                android:text="પૂ.શ્યામ સ્વામી - વડતાલ"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:. 95589 22124"
+                android:text="MO:. 9925205611"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s53_3"
@@ -124,6 +124,46 @@
                 android:layout_height="2dp"
                 android:layout_margin="5dp"
                 android:background="#ac662a"/>
+
+
+
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view3"
+                android:text="પૂ.શ્વેત સ્વામી - સુરત"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_4"
+                android:text="MO:. 9979202434"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s53_4"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view3"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_below="@+id/text_4_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+
+
 
         </RelativeLayout>
 
