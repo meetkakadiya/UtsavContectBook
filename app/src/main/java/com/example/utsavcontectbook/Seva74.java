@@ -7,37 +7,35 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class Seva72 extends AppCompatActivity {
+public class Seva74 extends AppCompatActivity {
 
-    Button s72_1,s72_2,s72_3,s72_4;
+    Button s74_1, s74_2;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_seva72);
+        setContentView(R.layout.activity_seva74);
 
-        s72_1 = findViewById(R.id.bt_s72_1);
+        s74_1 = findViewById(R.id.bt_s74_1);
 
-        s72_1.setOnClickListener(new View.OnClickListener() {
+        s74_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 8000693000"));
+                intent.setData(Uri.parse("tel: 8320562851"));
                 startActivity(intent);
             }
         });
 
-        s72_2 = findViewById(R.id.bt_s72_2);
+        s74_2 = findViewById(R.id.bt_s74_2);
 
-        s72_2.setOnClickListener(new View.OnClickListener() {
+        s74_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9374533734"));
+                intent.setData(Uri.parse("tel: 9825869567"));
                 startActivity(intent);
             }
         });
-
-
     }
 }

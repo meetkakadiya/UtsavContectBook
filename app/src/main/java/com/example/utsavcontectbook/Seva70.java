@@ -14,7 +14,7 @@ public class Seva70 extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_seva22);
+        setContentView(R.layout.activity_seva70);
 
         s70_1 = findViewById(R.id.bt_s70_1);
 

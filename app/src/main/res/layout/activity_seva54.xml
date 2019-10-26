@@ -105,7 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:."
+                android:text="MO:. 9824142996"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s54_3"

@@ -494,7 +494,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_margin="5dp"
-                android:background="#ac662a"/>
+                android:background="#ac662a"
+                android:layout_marginBottom="10dp"/>
 
 
         </RelativeLayout>

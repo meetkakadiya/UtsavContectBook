@@ -10,7 +10,7 @@ import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private Button seva1, seva2, seva3, seva4, seva5, seva6, seva7, seva8, seva9, seva10, seva11, seva12, seva13, seva14, seva15, seva16, seva17, seva18, seva19, seva20, seva21,seva22,seva23,seva24,seva25,seva26,seva27,seva28,seva29,seva30,seva31,seva32,seva33,seva34,seva35,seva36,seva37,seva38,seva39,seva40,seva41,seva42,seva43,seva44,seva45,seva46,seva47,seva48,seva49,seva50,seva51,seva52,seva53,seva54,seva55,seva56,seva57,seva58,seva59,seva60,seva61,seva62,seva63,seva64,seva65,seva66,seva67,seva68,seva69,seva70,seva71,seva72,seva73;
+    private Button seva1, seva2, seva3, seva4, seva5, seva6, seva7, seva8, seva9, seva10, seva11, seva12, seva13, seva14, seva15, seva16, seva17, seva18, seva19, seva20, seva21,seva22,seva23,seva24,seva25,seva26,seva27,seva28,seva29,seva30,seva31,seva32,seva33,seva34,seva35,seva36,seva37,seva38,seva39,seva40,seva41,seva42,seva43,seva44,seva45,seva46,seva47,seva48,seva49,seva50,seva51,seva52,seva53,seva54,seva55,seva56,seva57,seva58,seva59,seva60,seva61,seva62,seva63,seva64,seva65,seva66,seva67,seva68,seva69,seva70,seva71,seva72,seva73,seva74,seva75;
 
 // this is button
      @RequiresApi(api = Build.VERSION_CODES.ECLAIR)
@@ -612,7 +612,7 @@ public class HomeActivity extends AppCompatActivity {
         seva65.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                Intent intent =  new Intent(HomeActivity.this, Seva65.class);
                 startActivity(intent);
             }
         });
@@ -621,7 +621,7 @@ public class HomeActivity extends AppCompatActivity {
         seva66.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                Intent intent =  new Intent(HomeActivity.this, Seva66.class);
                 startActivity(intent);
             }
         });
@@ -630,7 +630,7 @@ public class HomeActivity extends AppCompatActivity {
         seva67.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                Intent intent =  new Intent(HomeActivity.this, Seva67.class);
                 startActivity(intent);
             }
         });
@@ -639,7 +639,7 @@ public class HomeActivity extends AppCompatActivity {
         seva68.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                Intent intent =  new Intent(HomeActivity.this, Seva68.class);
                 startActivity(intent);
             }
         });
@@ -648,7 +648,7 @@ public class HomeActivity extends AppCompatActivity {
         seva69.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                Intent intent =  new Intent(HomeActivity.this, Seva69.class);
                 startActivity(intent);
             }
         });
@@ -657,7 +657,7 @@ public class HomeActivity extends AppCompatActivity {
         seva70.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                Intent intent =  new Intent(HomeActivity.this, Seva70.class);
                 startActivity(intent);
             }
         });
@@ -666,7 +666,7 @@ public class HomeActivity extends AppCompatActivity {
         seva71.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                Intent intent =  new Intent(HomeActivity.this, Seva71.class);
                 startActivity(intent);
             }
         });
@@ -675,7 +675,7 @@ public class HomeActivity extends AppCompatActivity {
          seva72.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-                 Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                 Intent intent =  new Intent(HomeActivity.this, Seva72.class);
                  startActivity(intent);
              }
          });
@@ -684,12 +684,31 @@ public class HomeActivity extends AppCompatActivity {
          seva73.setOnClickListener(new View.OnClickListener() {
              @Override
              public void onClick(View v) {
-                 Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                 Intent intent =  new Intent(HomeActivity.this, Seva73.class);
+                 startActivity(intent);
+             }
+         });
+
+         seva74 = (Button) findViewById(R.id.seva_74);
+         seva74.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent intent =  new Intent(HomeActivity.this, Seva74.class);
+                 startActivity(intent);
+             }
+         });
+
+         seva75 = (Button) findViewById(R.id.seva_75);
+         seva75.setOnClickListener(new View.OnClickListener() {
+             @Override
+             public void onClick(View v) {
+                 Intent intent =  new Intent(HomeActivity.this, Seva75.class);
                  startActivity(intent);
              }
          });
 
 
-        overridePendingTransition(0, 0);
+
+         overridePendingTransition(0, 0);
     }
 }
