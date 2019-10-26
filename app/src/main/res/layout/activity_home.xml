@@ -213,7 +213,7 @@
                 android:layout_below="@+id/seva_19"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/boxroundshape"
-                android:text="સ્ટેજ સંચાલન સેવા"
+                android:text="સ્ટેજ સંકલન સેવા"
                 android:textSize="25dp" />
 
             <Button
@@ -684,11 +684,11 @@
             <Button
                 android:id="@+id/seva_66"
                 android:layout_width="130pt"
-                android:layout_height="40dp"
+                android:layout_height="70dp"
                 android:layout_below="@+id/seva_65"
                 android:layout_marginTop="10dp"
                 android:background="@drawable/boxroundshape"
-                android:text="ટાઈટનીયમ વ.અભિષેક"
+                android:text="ટાઈટનીયમ વ.અભિષેક ગોમતી લાઇટ શો"
                 android:textSize="25dp" />
 
             <Button

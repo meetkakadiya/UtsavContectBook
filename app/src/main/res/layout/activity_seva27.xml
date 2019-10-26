@@ -174,7 +174,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_5"
-                android:text="MO:. 9825821501"
+                android:text="MO:. 7698245000"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s27_5"

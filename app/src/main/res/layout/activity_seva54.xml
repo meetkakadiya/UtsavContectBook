@@ -64,14 +64,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="પૂ.ધર્મનંદન સ્વામી - ખંભાત"
+                android:text=" પૂ.શુક સ્વામી - કંડારી"
+
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:. 9898935434"
+                android:text="MO:.9825671155"
+
                 android:textSize="20dp" />
 
             <Button
@@ -98,14 +100,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view2"
-                android:text="પૂ.રધુનંદન સ્વામી (નાના)"
+                android:text="પૂ.ધર્મનંદન સ્વામી - ખંભાત"
+
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:. 9824142996"
+                android:text="MO:. 9898935434"
+
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s54_3"
@@ -135,14 +139,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view3"
-                android:text=" પૂ.શુક સ્વામી - કંડારી"
+                android:text="પૂ.રધુનંદન સ્વામી (નાના)"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_4_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_4"
-                android:text="MO:.9825671155"
+                android:text="MO:. 9824142996"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s54_4"

@@ -207,7 +207,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_6"
-                android:text="MO:. 9825583765"
+                android:text="MO:. 9601290009"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s22_6"

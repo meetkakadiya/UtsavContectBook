@@ -64,7 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="શ્રી મનીષભાઈ - નાર"
+                android:text="શ્રી મનીષભગત - નાર"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"

@@ -30,7 +30,7 @@ public class Seva32 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9825314115"));
+                intent.setData(Uri.parse("tel: 9925257346"));
                 startActivity(intent);
             }
         });
