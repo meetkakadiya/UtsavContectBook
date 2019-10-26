@@ -49,5 +49,16 @@ public class Seva14 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        s14_3 =
+                findViewById(R.id.bt_s14_3);
+
+        s14_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel:9825543688"));
+                startActivity(intent);
+            }
+        });
     }
 }

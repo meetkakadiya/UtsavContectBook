@@ -133,7 +133,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view3"
-                android:text="પૂ.સૂર્યપ્રકાશ સ્વામી - વડતાલ"
+                android:text="પૂ.શુકદેવ સ્વામી - નાર"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_4_1"

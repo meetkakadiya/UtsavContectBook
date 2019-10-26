@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="આટકોટ મંડળ"
+                android:text="પાણી વિભાગ 	પૂ.હરિસ્વરૂપ સ્વામી"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. "
+                android:text="MO:. 9537956662"
                 android:textSize="20dp" />
 
             <Button
@@ -64,14 +64,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="અમરેલી મંડળ"
+                android:text="પ્લમ્બીંગ વિભાગ પૂ.દિવ્યસાગર સ્વામી"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:."
+                android:text="MO:.7575088544"
                 android:textSize="20dp" />
 
             <Button

@@ -71,7 +71,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:.  "
+                android:text="MO:. 9925205611 "
                 android:textSize="20dp" />
 
             <Button

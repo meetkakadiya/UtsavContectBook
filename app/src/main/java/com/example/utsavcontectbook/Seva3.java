@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Seva3 extends AppCompatActivity {
 
-    Button s3_1,s3_2,s3_3,s3_4,s3_5;
+    Button s3_1,s3_2,s3_3,s3_4,s3_5,s3_6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +33,7 @@ public class Seva3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9825222217"));
+                intent.setData(Uri.parse("tel: 9898884558"));
                 startActivity(intent);
             }
         });
@@ -44,7 +44,7 @@ public class Seva3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9979202434"));
+                intent.setData(Uri.parse("tel: 9409451008"));
                 startActivity(intent);
             }
         });
@@ -68,7 +68,19 @@ public class Seva3 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel:  "));
+                intent.setData(Uri.parse("tel: 9601290525"));
+                startActivity(intent);
+            }
+        });
+
+
+        s3_6 = findViewById(R.id.bt_s3_6);
+
+        s3_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9687893339"));
                 startActivity(intent);
             }
         });

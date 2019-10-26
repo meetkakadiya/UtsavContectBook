@@ -58,6 +58,38 @@
 
             <!--End Name 1-->
 
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view1"
+                android:text="પૂ.કૃષ્ણપ્રિય સ્વામી - કુંડળધામ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_2"
+                android:text="MO:. 9601290016"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_s19_2"
+                android:layout_below="@id/view1"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/icon"   />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_below="@+id/text_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
 
 
 

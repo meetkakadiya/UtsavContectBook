@@ -64,7 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="ભગતજી પરિવાર - વડદલા"
+                android:text="કૌશિકભાઈ ભગતજી પરિવાર - વડદલા"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"

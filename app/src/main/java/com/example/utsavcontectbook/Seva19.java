@@ -26,7 +26,16 @@ public class Seva19 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        s19_2 = findViewById(R.id.bt_s19_2);
 
+        s19_2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel:9601290016"));
+                startActivity(intent);
+            }
+        });
 
     }
 }
