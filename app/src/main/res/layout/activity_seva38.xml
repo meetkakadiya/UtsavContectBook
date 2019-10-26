@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="	કુંડળધામ"
+                android:text="શ્રી તુષારભગત - કુંડળધામ(કથા મંડપ)"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. "
+                android:text="MO:. 9601290045"
                 android:textSize="20dp" />
 
             <Button
@@ -64,14 +64,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="સુરત ગુરૂકુલ "
+                android:text="વિશ્વસ્વરૂપ સ્વામી સુરત ગુરૂકુલ "
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:. "
+                android:text="MO:. 8000000252"
                 android:textSize="20dp" />
 
             <Button
@@ -105,7 +105,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:. "
+                android:text="MO:. 8630520428"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s38_3"

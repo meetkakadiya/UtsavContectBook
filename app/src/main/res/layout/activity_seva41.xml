@@ -98,14 +98,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view2"
-                android:text="શ્રી રાકેશભાઈ - વડતાલ"
+                android:text="પૂ.દેવ સ્વામી - ધરગાંવ વાળા"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:. 9428152308"
+                android:text="MO:. 9712895517"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s41_3"
@@ -120,6 +120,205 @@
             <View
                 android:id="@+id/view3"
                 android:layout_below="@+id/text_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view3"
+                android:text="શ્રી રાકેશભાઈ - વડતાલ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_4"
+                android:text="MO:. 9428152308"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s41_4"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view3"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_below="@+id/text_4_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view4"
+                android:text="શ્રી જાવેદભાઈ - વડતાલ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_5"
+                android:text="MO:. 9586835656"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s41_5"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view4"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_below="@+id/text_5_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view5"
+                android:text="શ્રી સતીષભાઈ જી.ઈ.બી.-વડતાલ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_6"
+                android:text="MO:. 9925217737"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s41_6"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view5"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_below="@+id/text_6_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view6"
+                android:text="શ્રી દિપકભાઈ ગઢવી(ફ્રાયર સેપ્ટી)"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_7"
+                android:text="MO:. 9879688235"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s41_7"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view6"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_below="@+id/text_7_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view7"
+                android:text="શ્રી રાવજીભાઈ - વડતાલ "
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_8_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_8"
+                android:text="MO:. 9726575789"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s41_8"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view7"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_below="@+id/text_8_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view8"
+                android:text="શ્રી ઈશ્વરભાઈ - સુરત"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_9_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_9"
+                android:text="MO:. 8469918181"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s41_9"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view8"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view9"
+                android:layout_below="@+id/text_9_1"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_margin="5dp"

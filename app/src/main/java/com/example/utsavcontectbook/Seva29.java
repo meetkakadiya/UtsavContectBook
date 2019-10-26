@@ -8,7 +8,7 @@ import android.view.View;
 import android.widget.Button;
 
 public class Seva29 extends AppCompatActivity {
-    Button s29_1,s29_2,s29_3,s29_4;
+    Button s29_1,s29_2,s29_3,s29_4,s29_5;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -52,7 +52,19 @@ public class Seva29 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 9409451008"));
+                intent.setData(Uri.parse("tel:9979598241"));
+                startActivity(intent);
+            }
+        });
+
+
+        s29_5 = findViewById(R.id.bt_s29_5);
+
+        s29_5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9879612115"));
                 startActivity(intent);
             }
         });

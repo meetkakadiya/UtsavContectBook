@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="પૂ.શ્વેત સ્વામી - સુરત"
+                android:text="પૂ.વિશ્વપ્રકાશ સ્વામી - કલાકુંજ સુરત"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:.9979202434"
+                android:text="MO:.7574074350"
                 android:textSize="20dp" />
 
             <Button

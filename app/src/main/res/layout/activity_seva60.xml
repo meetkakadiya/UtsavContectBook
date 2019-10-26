@@ -94,6 +94,40 @@
 
 
 
+
+
+            <TextView
+                android:id="@+id/text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view2"
+                android:text="પૂ.હરિચરણ સ્વામી - જલગાંવ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_3"
+                android:text="MO:.  9662311468"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_s60_3"
+                android:layout_below="@id/view2"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/icon"   />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_below="@+id/text_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
         </RelativeLayout>
 
 

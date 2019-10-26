@@ -16,16 +16,6 @@ public class Seva52 extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_seva52);
 
-        s52_1 = findViewById(R.id.bt_s52_1);
-
-        s52_1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel: 7574074350"));
-                startActivity(intent);
-            }
-        });
 
         s52_2 = findViewById(R.id.bt_s52_2);
 

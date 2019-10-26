@@ -1,6 +1,8 @@
 package com.example.utsavcontectbook;
 
 import android.content.Intent;
+import android.os.Build;
+import android.support.annotation.RequiresApi;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -8,9 +10,10 @@ import android.widget.Button;
 
 public class HomeActivity extends AppCompatActivity {
 
-    private Button seva1, seva2, seva3, seva4, seva5, seva6, seva7, seva8, seva9, seva10, seva11, seva12, seva13, seva14, seva15, seva16, seva17, seva18, seva19, seva20, seva21,seva22,seva23,seva24,seva25,seva26,seva27,seva28,seva29,seva30,seva31,seva32,seva33,seva34,seva35,seva36,seva37,seva38,seva39,seva40,seva41,seva42,seva43,seva44,seva45,seva46,seva47,seva48,seva49,seva50,seva51,seva52,seva53,seva54,seva55,seva56,seva57,seva58,seva59,seva60,seva61,seva62,seva63,seva64;
+    private Button seva1, seva2, seva3, seva4, seva5, seva6, seva7, seva8, seva9, seva10, seva11, seva12, seva13, seva14, seva15, seva16, seva17, seva18, seva19, seva20, seva21,seva22,seva23,seva24,seva25,seva26,seva27,seva28,seva29,seva30,seva31,seva32,seva33,seva34,seva35,seva36,seva37,seva38,seva39,seva40,seva41,seva42,seva43,seva44,seva45,seva46,seva47,seva48,seva49,seva50,seva51,seva52,seva53,seva54,seva55,seva56,seva57,seva58,seva59,seva60,seva61,seva62,seva63,seva64,seva65,seva66,seva67,seva68,seva69,seva70,seva71;
 
 
+    @RequiresApi(api = Build.VERSION_CODES.ECLAIR)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -604,6 +607,69 @@ public class HomeActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+      /*  seva65 = (Button) findViewById(R.id.seva_65);
+        seva65.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                startActivity(intent);
+            }
+        });
+
+        seva66 = (Button) findViewById(R.id.seva_66);
+        seva66.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                startActivity(intent);
+            }
+        });
+
+        seva67 = (Button) findViewById(R.id.seva_67);
+        seva67.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                startActivity(intent);
+            }
+        });
+
+        seva68 = (Button) findViewById(R.id.seva_68);
+        seva68.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                startActivity(intent);
+            }
+        });
+
+        seva69 = (Button) findViewById(R.id.seva_69);
+        seva69.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                startActivity(intent);
+            }
+        });
+
+        seva70 = (Button) findViewById(R.id.seva_70);
+        seva70.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                startActivity(intent);
+            }
+        });
+
+        seva71 = (Button) findViewById(R.id.seva_71);
+        seva71.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent =  new Intent(HomeActivity.this, Seva6.class);
+                startActivity(intent);
+            }
+        });*/
 
         overridePendingTransition(0, 0);
     }

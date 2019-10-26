@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="પા.ઘનશ્યામભગત - ટ્રસ્ટીશ્રી"
+                android:text="પૂ.ગોવિંદ સ્વામી - મેતપુરવાળા"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. 9409451008"
+                android:text="MO:. 9898884558"
                 android:textSize="20dp" />
 
             <Button
@@ -57,6 +57,40 @@
                 android:background="#ac662a"/>
 
             <!--End Name 1-->
+
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view1"
+                android:text="શ્રી શિવ બાપુ - વ્રજભુમી"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_2"
+                android:text="MO:.9879618701"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_s56_2"
+                android:layout_below="@id/view1"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/icon"   />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_below="@+id/text_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
 
 
         </RelativeLayout>

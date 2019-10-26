@@ -37,7 +37,7 @@
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. "
+                android:text="MO:. 9124373141"
                 android:textSize="20dp" />
 
             <Button
@@ -87,6 +87,41 @@
             <View
                 android:id="@+id/view2"
                 android:layout_below="@+id/text_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+
+            <TextView
+                android:id="@+id/text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view2"
+                android:text="શ્રી ગોવિંદભાઈ બારસીયા"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_3"
+                android:text="MO:. 9825039241"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_s34_3"
+                android:layout_below="@id/view2"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/icon"   />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_below="@+id/text_3_1"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_margin="5dp"

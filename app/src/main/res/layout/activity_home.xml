@@ -273,7 +273,7 @@
                android:layout_below="@+id/seva_25"
                android:layout_marginTop="10dp"
                android:background="@drawable/boxroundshape"
-               android:text="સંતઉતારા વિભાગ"
+               android:text="સંત ઉતારા વિભાગ"
                android:textSize="25dp" />
 
            <Button
@@ -375,7 +375,7 @@
                android:layout_below="@+id/seva_35"
                android:layout_marginTop="10dp"
                android:background="@drawable/boxroundshape"
-               android:text="સીક્યુરીટી વિભાગ"
+               android:text="ટ્રાફીક-સીક્યુરીટી વિભાગ"
                android:textSize="25dp" />
 
            <Button
@@ -660,6 +660,7 @@
                android:text="વોકી-ટોકી"
                android:textSize="25dp" />
 
+
            <Button
                android:id="@+id/seva_64"
                android:layout_width="130pt"
@@ -667,9 +668,113 @@
                android:layout_below="@+id/seva_63"
                android:layout_marginTop="10dp"
                android:background="@drawable/boxroundshape"
+               android:text="સ્ટોલ વિભાગ"
+               android:textSize="25dp"
+               android:layout_marginBottom="10dp"/>
+
+           <Button
+               android:id="@+id/seva_65"
+               android:layout_width="130pt"
+               android:layout_height="40dp"
+               android:layout_below="@+id/seva_64"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/boxroundshape"
+               android:text="મહોત્સવ ઉદ્‌ઘાટન"
+               android:textSize="25dp"
+               android:layout_marginBottom="10dp"/>
+
+           <Button
+               android:id="@+id/seva_66"
+               android:layout_width="130pt"
+               android:layout_height="40dp"
+               android:layout_below="@+id/seva_65"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/boxroundshape"
+               android:text="ટાઈટનીયમ વ.અભિષેક"
+               android:textSize="25dp"
+               android:layout_marginBottom="10dp"/>
+
+           <Button
+               android:id="@+id/seva_67"
+               android:layout_width="130pt"
+               android:layout_height="40dp"
+               android:layout_below="@+id/seva_66"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/boxroundshape"
+               android:text="ફુલ હાર સેવા"
+               android:textSize="25dp"
+               android:layout_marginBottom="10dp"/>
+
+           <Button
+               android:id="@+id/seva_68"
+               android:layout_width="130pt"
+               android:layout_height="40dp"
+               android:layout_below="@+id/seva_67"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/boxroundshape"
+               android:text="પાણી વિભાગ"
+               android:textSize="25dp"
+               android:layout_marginBottom="10dp"/>
+
+           <Button
+               android:id="@+id/seva_69"
+               android:layout_width="130pt"
+               android:layout_height="40dp"
+               android:layout_below="@+id/seva_68"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/boxroundshape"
+               android:text="પ્લમ્બીંગ વિભાગ"
+               android:textSize="25dp"
+               android:layout_marginBottom="10dp"/>
+
+           <Button
+               android:id="@+id/seva_70"
+               android:layout_width="130pt"
+               android:layout_height="40dp"
+               android:layout_below="@+id/seva_69"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/boxroundshape"
+               android:text="મુખ્ય સંત ભોજનાલય"
+               android:textSize="25dp"
+               android:layout_marginBottom="10dp"/>
+
+           <Button
+               android:id="@+id/seva_71"
+               android:layout_width="130pt"
+               android:layout_height="40dp"
+               android:layout_below="@+id/seva_70"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/boxroundshape"
+               android:text="શણગાર,વિવિધ ગેટ ઉદ્‌ઘાટન"
+               android:textSize="25dp"
+               android:layout_marginBottom="10dp"/>
+
+
+
+
+           <Button
+               android:id="@+id/seva_72"
+               android:layout_width="130pt"
+               android:layout_height="40dp"
+               android:layout_below="@+id/seva_71"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/boxroundshape"
+               android:text="સાંસ્કૃતિ વિભાગ"
+               android:textSize="25dp"
+               android:layout_marginBottom="10dp"/>
+
+
+           <Button
+               android:id="@+id/seva_73"
+               android:layout_width="130pt"
+               android:layout_height="40dp"
+               android:layout_below="@+id/seva_72"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/boxroundshape"
                android:text="સંત મિશન રસોડુ"
                android:textSize="25dp"
                android:layout_marginBottom="10dp"/>
+
 
 
        </LinearLayout>

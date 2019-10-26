@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDEF"
+    tools:context=".Seva71">
+
+    <TextView
+        android:id="@+id/main_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="શણગાર,વિવિધ ગેટ ઉદ્‌ઘાટન"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <ScrollView
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/main_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <!--Name 1-->
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="પૂ.હરિચરણ સ્વામી - જલગાંવ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_1_1"
+                android:layout_below="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MO:. 9662311468"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_s71_1"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/icon"/>
+            <View
+                android:id="@+id/view1"
+                android:layout_below="@+id/text_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--End Name 1-->
+
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view1"
+                android:text="પૂ.રધુનંદન સ્વામી -નાના"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_2"
+                android:text="MO:.9824142996"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_s71_2"
+                android:layout_below="@id/view1"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/icon"   />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_below="@+id/text_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view2"
+                android:text="પૂ.ઘનશ્યામ સ્વામી - વાસદ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_3_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_3"
+                android:text="MO:. 8140761134"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s71_3"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view2"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view3"
+                android:layout_below="@+id/text_3_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view3"
+                android:text="પૂ.રાધાકૃષ્ણ સ્વામી - વાસદ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_4_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_4"
+                android:text="MO:. 8511657222"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s71_4"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view3"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view4"
+                android:layout_below="@+id/text_4_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view4"
+                android:text="પૂ.ચંદ્રપ્રકાશ સ્વામી - ભરૂચ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_5"
+                android:text="MO:. 9601841887"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s71_5"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view4"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_below="@+id/text_5_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view5"
+                android:text="પૂ.ભક્તચરણ સ્વામી- ખાનદેશી"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_6"
+                android:text="MO:. 9016768102"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s71_6"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view5"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_below="@+id/text_6_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+
+
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view6"
+                android:text="પૂ.માનસ સ્વામી - સાવદા"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_7_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_7"
+                android:text="MO:. 9527025147"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s71_7"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view6"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view7"
+                android:layout_below="@+id/text_7_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view7"
+                android:text="શ્રી વિષ્ણુભાઈ - પાડગોલ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_8_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_8"
+                android:text="MO:. 8140665242"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s71_8"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view7"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view8"
+                android:layout_below="@+id/text_8_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

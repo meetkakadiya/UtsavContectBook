@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Seva22 extends AppCompatActivity {
 
-    Button s22_1,s22_2, s22_3,s22_4,s22_5;
+    Button s22_1,s22_2, s22_3,s22_4,s22_5,s22_6,s22_7,s22_8,s22_9;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -67,6 +67,50 @@ public class Seva22 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
                 intent.setData(Uri.parse("tel: 9825821501"));
+                startActivity(intent);
+            }
+        });
+
+        s22_6 = findViewById(R.id.bt_s22_6);
+
+        s22_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9825583765"));
+                startActivity(intent);
+            }
+        });
+
+        s22_7 = findViewById(R.id.bt_s22_7);
+
+        s22_7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9825543688"));
+                startActivity(intent);
+            }
+        });
+
+        s22_8 = findViewById(R.id.bt_s22_8);
+
+        s22_8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9601291092"));
+                startActivity(intent);
+            }
+        });
+
+        s22_9 = findViewById(R.id.bt_s22_9);
+
+        s22_9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9324545161"));
                 startActivity(intent);
             }
         });

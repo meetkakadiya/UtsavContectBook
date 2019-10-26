@@ -64,14 +64,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text="સુરત ગુરૂકુલ - ૧ સંત"
+                android:text="પૂ.નારાયણચરણ સ્વામી - વ્રજભુમી"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_2"
-                android:text="MO:. "
+                android:text="MO:. 9825222217"
                 android:textSize="20dp" />
 
             <Button
@@ -98,14 +98,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view2"
-                android:text="કુંડળધામ - ૧ સંત "
+                android:text="પૂ.સૂર્યપ્રકાશ સ્વામી - વડતાલ "
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:. "
+                android:text="MO:. 9998217374"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s58_3"

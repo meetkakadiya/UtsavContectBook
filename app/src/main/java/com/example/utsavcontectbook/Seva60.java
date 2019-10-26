@@ -38,6 +38,17 @@ public class Seva60 extends AppCompatActivity {
             }
         });
 
+        s60_3 = findViewById(R.id.bt_s60_3);
+
+        s60_3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel:  9662311468"));
+                startActivity(intent);
+            }
+        });
+
 
     }
 }

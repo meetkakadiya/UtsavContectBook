@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="પૂ.પી.પી.સ્વામી - સુરત રામપુરા"
+                android:text="પૂ.હરિચરણ સ્વામી - જલગાંવ"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. 9925224171"
+                android:text="MO:. 9662311468"
                 android:textSize="20dp" />
 
             <Button

@@ -64,7 +64,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view1"
-                android:text=" પૂ.દિવ્યજીવન સ્વામી"
+                android:text=" પૂ.શ્યામવલ્લભ સ્વામી - વડતાલ"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_2_1"
@@ -98,14 +98,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view2"
-                android:text="શ્રી મનીષભગત"
+                android:text="પૂ.પ્રિયદર્શન સ્વામી - પીજ"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_3_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_3"
-                android:text="MO:.  "
+                android:text="MO:.  9824610582"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s63_3"

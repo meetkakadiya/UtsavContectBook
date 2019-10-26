@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="પૂ.ધર્મવલ્લભ સ્વામી - સુરત ગુરૂકુલ"
+                android:text="પૂ.ગોવિંદ સ્વામી - મેતપુરવાળા"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. "
+                android:text="MO:. 9898884558"
                 android:textSize="20dp" />
 
             <Button
@@ -139,7 +139,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_4"
-                android:text="MO:. "
+                android:text="MO:. 9909949911"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s43_4"

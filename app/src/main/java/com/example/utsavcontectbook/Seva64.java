@@ -9,44 +9,45 @@ import android.widget.Button;
 
 public class Seva64 extends AppCompatActivity {
 
-    Button s64_1,s64_2,s64_3;
-
+    Button  s65_1,s65_2, s65_3,s65_4;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_seva64);
+        setContentView(R.layout.activity_seva65);
 
-        s64_1 = findViewById(R.id.bt_s64_1);
+        s65_1 = findViewById(R.id.bt_s64_1);
 
-        s64_1.setOnClickListener(new View.OnClickListener() {
+        s65_1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel:  "));
+                intent.setData(Uri.parse("tel: 9825583765"));
                 startActivity(intent);
             }
         });
 
-        s64_2 = findViewById(R.id.bt_s64_2);
+        s65_2 = findViewById(R.id.bt_s64_2);
 
-        s64_2.setOnClickListener(new View.OnClickListener() {
+        s65_2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel:  "));
+                intent.setData(Uri.parse("tel: 9979202434"));
                 startActivity(intent);
             }
         });
 
-        s64_3 = findViewById(R.id.bt_s64_3);
+        s65_3 = findViewById(R.id.bt_s64_3);
 
-        s64_3.setOnClickListener(new View.OnClickListener() {
+        s65_3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel:  "));
+                intent.setData(Uri.parse("tel: 8306543926"));
                 startActivity(intent);
             }
         });
+
+
     }
 }

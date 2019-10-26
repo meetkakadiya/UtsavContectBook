@@ -195,6 +195,38 @@
                 android:background="#ac662a"/>
 
 
+            <!--  -->
+            <TextView
+                android:id="@+id/text_6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view5"
+                android:text="શ્રી ભાર્ગવભગત - ખંભાત (ચેક-બીલ)"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_6_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_6"
+                android:text="MO:. 9601290525"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s27_6"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view5"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view6"
+                android:layout_below="@+id/text_6_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
         </RelativeLayout>
 
 

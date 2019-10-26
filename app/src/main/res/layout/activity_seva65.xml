@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDEF"
+    tools:context=".Seva65">
+
+    <TextView
+        android:id="@+id/main_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="મહોત્સવ ઉદ્‌ઘાટન"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <ScrollView
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/main_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <!--Name 1-->
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="પૂ.કૃષ્ણપ્રિય સ્વામી - કુંડળધામ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_1_1"
+                android:layout_below="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MO:. 9601290016"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_s65_1"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/icon"/>
+            <View
+                android:id="@+id/view1"
+                android:layout_below="@+id/text_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--End Name 1-->
+
+
+            <TextView
+                android:id="@+id/text_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view1"
+                android:text="પૂ.શ્યામવલ્લભ સ્વામી - વડતાલ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_2_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_2"
+                android:text="MO:.9925205611"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_s65_2"
+                android:layout_below="@id/view1"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/icon"   />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_below="@+id/text_2_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

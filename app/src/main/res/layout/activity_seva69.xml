@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFDEF"
+    tools:context=".Seva69">
+
+    <TextView
+        android:id="@+id/main_3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="પ્લમ્બીંગ વિભાગ"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
+
+    <ScrollView
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/main_3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp">
+
+            <!--Name 1-->
+            <TextView
+                android:id="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="પૂ.દિવ્યસાગર સ્વામી - આટકોટ મંડળ"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_1_1"
+                android:layout_below="@+id/text_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MO:. 7575088544"
+                android:textSize="20dp" />
+
+            <Button
+                android:id="@+id/bt_s69_1"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/icon"/>
+            <View
+                android:id="@+id/view1"
+                android:layout_below="@+id/text_1_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+            <!--End Name 1-->
+
+
+
+
+
+        </RelativeLayout>
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="કંડારી ગુરૂકુલ"
+                android:text="પૂ.દર્શન સ્વામી - કંડારી ગુરૂકુલ"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. "
+                android:text="MO:. 8866665682"
                 android:textSize="20dp" />
 
             <Button

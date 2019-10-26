@@ -11,7 +11,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Seva64"></activity>
+        <activity android:name=".Seva73"></activity>
+        <activity android:name=".Seva72" />
+        <activity android:name=".Seva71" />
+        <activity android:name=".Seva70" />
+        <activity android:name=".Seva69" />
+        <activity android:name=".Seva68" />
+        <activity android:name=".Seva67" />
+        <activity android:name=".Seva66" />
+        <activity android:name=".Seva65" />
+        <activity android:name=".Seva64" />
         <activity android:name=".Seva63" />
         <activity android:name=".Seva62" />
         <activity android:name=".Seva61" />

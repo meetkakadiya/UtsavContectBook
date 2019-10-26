@@ -133,14 +133,14 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/view3"
-                android:text="પા.ઘનશ્યામભગત - ટ્રસ્ટીશ્રી"
+                android:text="પૂ.લક્ષ્મીનારાયણ સ્વામી - ખાનદેશી"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_4_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/text_4"
-                android:text="MO:.9409451008"
+                android:text="MO:.9979598241"
                 android:textSize="20dp" />
             <Button
                 android:id="@+id/bt_s29_4"
@@ -155,6 +155,40 @@
             <View
                 android:id="@+id/view4"
                 android:layout_below="@+id/text_4_1"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"
+                android:layout_margin="5dp"
+                android:background="#ac662a"/>
+
+
+            <!--  -->
+            <TextView
+                android:id="@+id/text_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/view4"
+                android:text="પૂ.પવન સ્વામી - કલાલી"
+                android:textSize="25dp" />
+            <TextView
+                android:id="@+id/text_5_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/text_5"
+                android:text="MO:.9879612115"
+                android:textSize="20dp" />
+            <Button
+                android:id="@+id/bt_s29_5"
+                android:layout_alignParentRight="true"
+                android:layout_below="@id/view4"
+                android:layout_marginTop="2dp"
+                android:layout_width="25pt"
+                android:layout_height="25pt"
+                android:layout_marginRight="5dp"
+                android:background="@drawable/icon" />
+
+            <View
+                android:id="@+id/view5"
+                android:layout_below="@+id/text_5_1"
                 android:layout_width="match_parent"
                 android:layout_height="2dp"
                 android:layout_margin="5dp"

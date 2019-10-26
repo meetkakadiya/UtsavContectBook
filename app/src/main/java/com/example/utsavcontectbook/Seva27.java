@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Seva27 extends AppCompatActivity {
 
-    Button s27_1,s27_2,s27_3,s27_4,s27_5;
+    Button s27_1,s27_2,s27_3,s27_4,s27_5,s27_6;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -66,6 +66,17 @@ public class Seva27 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
                 intent.setData(Uri.parse("tel: 9825821501"));
+                startActivity(intent);
+            }
+        });
+
+        s27_6 = findViewById(R.id.bt_s27_6);
+
+        s27_6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_CALL);
+                intent.setData(Uri.parse("tel: 9601290525"));
                 startActivity(intent);
             }
         });

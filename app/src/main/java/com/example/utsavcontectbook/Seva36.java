@@ -20,7 +20,7 @@ public class Seva36 extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(Intent.ACTION_CALL);
-                intent.setData(Uri.parse("tel:"));
+                intent.setData(Uri.parse("tel: 8630520428"));
                 startActivity(intent);
             }
         });

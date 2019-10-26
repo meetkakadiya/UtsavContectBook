@@ -10,7 +10,7 @@
         android:id="@+id/main_3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="સીક્યુરીટી વિભાગ"
+        android:text="ટ્રાફીક-સીક્યુરીટી વિભાગ"
         android:gravity="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"/>
 
@@ -30,14 +30,14 @@
                 android:id="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="કુબેરનગર સુરત	"
+                android:text="પા.નિલકંઠભગત - કુબેરનગર સુરત	"
                 android:textSize="25dp" />
             <TextView
                 android:id="@+id/text_1_1"
                 android:layout_below="@+id/text_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="MO:. "
+                android:text="MO:. 8630520428"
                 android:textSize="20dp" />
 
             <Button
